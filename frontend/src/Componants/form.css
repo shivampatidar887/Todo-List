@@ -1,0 +1,275 @@
+.LoginSignUpContainer,.newTaskContainer,.updateProfileContainer {
+    background:#323946;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .LoginSignUpBox,.newTaskBox,.updateProfileBox{
+    margin-top: 75px;
+    width: 400px;
+    height: 475px;
+    background: #1f242d;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .forgotPasswordHeading,.resetPasswordHeading,.updateProfileHeading ,.updatePasswordHeading,.updateProfileHeading
+  {
+    
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size:18px;
+    font-weight: 300;
+    padding: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205);
+    width: 50%;
+  }
+
+  .login_signUp_toggle {
+    display: flex;
+    align-items: center;
+    height: 50px;
+  }
+  
+  .login_signUp_toggle>p {
+    height: 60px;
+    margin: 1px;
+    color: #fff;
+    font-size: 15px;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    width: 100%;
+  }
+  
+  .login_signUp_toggle>p:hover {
+    color: #0ef;
+  }
+  
+  .LoginSignUpBox>div>button {
+    background-color: #0ef;
+    height: 3px;
+    width: 50%;
+    border: none;
+    transition: all 0.5s;
+  }
+  
+  .loginForm,
+  .signUpForm,
+  .createTaskForm,.updateProfileForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 75%;
+    transition: all 0.5s;
+  }
+  .signUpForm {
+    transform: translateY(-100%) translateX(-100vmax);
+  }
+  .loginForm>div,
+  .signUpForm>div,
+  .createTaskForm>div,
+  .updateProfile{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color:#323946;
+    border-radius: 5px;
+  }
+  .loginForm>div>input,
+  .signUpForm>div>input,
+  .newTaskinpt>input ,
+  .updateProfile>input{
+    padding: 8px 50px;
+    padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(67, 64, 64, 0.267);
+    border-radius: 5px;
+    font-family: cursive;
+    color: rgb(186, 184, 184);
+    outline: none;
+  }
+  
+  .loginForm>div>svg,
+  .signUpForm>div>svg,
+  .updateProfile>svg,
+  .newTaskinpt>svg,
+  .newTaskinpt>svg{
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 25px;
+    color: rgb(186, 184, 184);
+  }
+  .pp{
+    transform: translateX(-2.3vmax);
+    font-size: 25px;
+    color: rgb(186, 184, 184);
+    
+  }
+  .loginForm>a 
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    text-decoration: none;
+  }
+ 
+  .loginBtn,
+  .signUpBtn,
+  #createTaskBtn,
+  #updateProfileBtn
+   {
+    border: none;
+    background-color: #0ef;
+    color: black;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.219);
+  }
+  .shiftToLeft {
+    transform: translateX(-100%);
+  }
+  
+  .shiftToNeutral {
+    transform: translateX(0%);
+  }
+  
+  .shiftToNeutralForm {
+    transform: translateX(0%) translateY(-100%);
+  }
+  
+  .shiftToRight {
+    transform: translateX(100%);
+  }
+
+  .dropdown{
+    background-color: #323946;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    color: rgb(186, 184, 184);
+  }
+
+  .datepick{
+    padding: 8px 50px;
+    padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(67, 64, 64, 0.267);
+    border-radius: 5px;
+    font-family: cursive;
+    color: rgb(186, 184, 184);
+    outline: none;
+    color: #323946;
+  }
+
+  
+@media(max-width:800px) {
+  .LoginSignUpBox,.newTaskBox,.updateProfileBox{
+    margin-top: 70px;
+    width: 350px;
+    height: 450px;
+  }
+  .forgotPasswordHeading,.resetPasswordHeading,.updateProfileHeading ,.updatePasswordHeading,.updateProfileHeading
+  {
+    
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size:18px;
+    font-weight: 300;
+    padding: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205);
+    width: 50%;
+  }
+
+  .login_signUp_toggle {
+    height: 45px;
+  }
+
+  
+
+  .dropdown{
+    background-color: #323946;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    color: rgb(186, 184, 184);
+  }
+
+  .datepick{
+    padding: 8px 50px;
+    padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(67, 64, 64, 0.267);
+    border-radius: 5px;
+    font-family: cursive;
+    color: rgb(186, 184, 184);
+    outline: none;
+    color: #323946;
+  }
+
+}
+
+@media(max-width:500px) {
+  .LoginSignUpBox,.newTaskBox,.updateProfileBox{
+    margin-top: 70px;
+    width: 260px;
+    height: 420px;
+  }
+  .forgotPasswordHeading,.resetPasswordHeading,.updateProfileHeading ,.updatePasswordHeading,.updateProfileHeading
+  {
+    
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size:18px;
+    font-weight: 300;
+    padding: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.205);
+    width: 50%;
+  }
+
+  
+
+  .dropdown{
+    background-color: #323946;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    color: rgb(186, 184, 184);
+  }
+
+  .datepick{
+    padding: 8px 50px;
+    padding-right: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1.5px solid rgba(67, 64, 64, 0.267);
+    border-radius: 5px;
+    font-family: cursive;
+    color: rgb(186, 184, 184);
+    outline: none;
+    color: #323946;
+  }
+   
+}
