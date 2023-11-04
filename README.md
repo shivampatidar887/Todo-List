@@ -11,6 +11,8 @@ cd ..  <br> <br>
 #backend<br>
 npm install<br>
 
+#start <br>
+npm run dev <br> <br>
 #description <br>
 • Developed a user friendly todo list with create, update, delete and mark as complete functionalities.<br>
 • Initiated a well-structured Node/Express.js server with MongoDB database and optimized API calls.<br>
