@@ -2,17 +2,24 @@
 #github Repo link
 https://github.com/shivampatidar887/Todo-List  
 
-#module installation <br>
-<br>
-#frontend <br>
-cd frontend <br>
-npm install <br>
-cd ..  <br> <br>
-#backend<br>
-npm install<br>
+## Usage
 
-#start <br>
-npm run dev <br> <br>
+### Install dependencies
+```
+cd frontend
+npm install
+cd ..   
+```
+```
+npm install
+```
+
+### Run Both React Dev Server and Backend Server using
+
+```
+npm run dev
+```
+
 #description <br>
 • Developed a user friendly todo list with create, update, delete and mark as complete functionalities.<br>
 • Initiated a well-structured Node/Express.js server with MongoDB database and optimized API calls.<br>
