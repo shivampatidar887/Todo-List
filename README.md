@@ -1,7 +1,3 @@
-# Todo-List
-#github Repo link
-https://github.com/shivampatidar887/Todo-List  
-
 ## Usage
 
 ### Install dependencies
